@@ -2,21 +2,43 @@
   "name": "with-typescript",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "export": "next export"
   },
   "dependencies": {
-    "next": "latest",
+    "@types/styled-components": "^5.1.3",
+    "bootstrap": "^4.4.1",
+    "isomorphic-unfetch": "3.0.0",
+    "next": "9.4.5-canary.7",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.9.0",
+    "react-particles-js": "^2.7.1",
+    "react-scroll-up": "^1.3.3",
+    "react-scrollspy": "^3.4.2",
+    "react-slick": "^0.25.2",
+    "react-tabs": "^3.1.0",
+    "react-visibility-sensor": "^5.1.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.22",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "typescript": "^4.1.3"
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-scrollspy": "^3.3.2",
+    "@types/react-slick": "^0.23.4",
+    "@types/react-tabs": "^2.3.1",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "file-loader": "^5.1.0",
+    "node-sass": "^4.13.1",
+    "typescript": "3.7.3",
+    "url-loader": "^3.0.0"
   },
-  "license": "MIT"
+  "license": "ISC"
 }
