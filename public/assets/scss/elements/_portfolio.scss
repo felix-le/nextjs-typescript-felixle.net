@@ -66,28 +66,11 @@
     backface-visibility: hidden;
     transition: transform 0.28s ease;
     z-index: 4;
-    &.pullr {
-      background-image: url(/assets/images/portfolio/pullr/2.png);
+    &.felixle {
+      background-image: url(/assets/images/portfolio/felixle/1.png);
     }
 
-    &.crystal-dashboard {
-      background-image: url(/assets/images/portfolio/crystal-dashboard/2.png);
-    }
-    &.the-indie {
-      background-image: url(/assets/images/portfolio/the-indie/1.png);
-    }
-    &.oneclicktrips {
-      background-image: url(/assets/images/portfolio/oneclicktrips/2.png);
-    }
-    &.usonia {
-      background-image: url(/assets/images/portfolio/usonia/1.png);
-    }
-    &.iorad {
-      background-image: url(/assets/images/portfolio/iorad/1.png);
-    }
-    &.vtsale {
-      background-image: url(/assets/images/portfolio/vtsale/1.png);
-    }
+   
 
     &::after {
       background-color: rgba(45, 45, 45, 0.35);

@@ -34,7 +34,7 @@ export const slickDot = {
 
 export const portfolioSlick2 = {
   infinite: true,
-  slidesToShow: 4,
+  slidesToShow: 2,
   slidesToScroll: 1,
   dots: true,
   arrows: true,
@@ -42,13 +42,13 @@ export const portfolioSlick2 = {
     {
       breakpoint: 800,
       settings: {
-        slidesToShow: 3
+        slidesToShow: 2
       }
     },
     {
       breakpoint: 1200,
       settings: {
-        slidesToShow: 3
+        slidesToShow: 2
       }
     },
     {

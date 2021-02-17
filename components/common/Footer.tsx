@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer: React.FunctionComponent = () =>{
   return (
-    <header>
+    <footer>
       <h1>this is footer</h1>
-    </header>
+    </footer>
   )
 }
 export default Footer;

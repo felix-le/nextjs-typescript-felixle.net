@@ -25,7 +25,7 @@ const Layout: React.FunctionComponent<IProps> = ({
       <meta property="og:type" content="website" />
       <meta
         property="og:title"
-        content="Felix Le - a Web developer - React, NodeJS"
+        content="Felix Le - a Web developer - ReactJS"
       />
        <meta
         property="og:description"
