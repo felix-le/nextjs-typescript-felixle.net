@@ -7,7 +7,7 @@ import About from '../components/About';
 import TechnologyStack from '../components/TechnologyStack';
 
 import Portfolio from '../components/Portfolio';
-import portflioData from '../data/portfolio';
+import portfolioData from '../data/portfolio';
 
 
 const IndexPage: NextPage = () => {
@@ -29,7 +29,7 @@ const IndexPage: NextPage = () => {
 
         <div className='portfolio-area pb--120 bg_color--1'>
         <div className='portfolio-sacousel-inner mb--55'>
-          <Portfolio data={portflioData} />
+          <Portfolio data={portfolioData} />
         </div>
       </div>
     </Layout>
