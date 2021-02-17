@@ -966,6 +966,9 @@ Slider Default
     .heroBanner__des{
       font-size: $body-font-size;
       color: $gray;
+      svg{
+        font-size: 12px;
+      }
     }
     @media #{$sm-layout} {
       text-align: center;

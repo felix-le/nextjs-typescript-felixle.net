@@ -1,19 +1,24 @@
 import * as React from 'react';
 import Layout from '../components/common/Layout';
 import {NextPage} from 'next';
-import HeroBanner from '../components/HeroBanner'
-
-
+import HeroBanner from '../components/HeroBanner';
+import About from '../components/About';
+import TechnologyStack from '../components/TechnologyStack';
 
 const IndexPage: NextPage = () => {
   return(
     <Layout title="Felix Le's Website">
-      <div>
-        <h1>this is navbar</h1>
-      </div>
-      <div>
         <div className="slider-wrapper">
           <HeroBanner/>
+        </div>
+        
+        <div className='about-area about-position-top pb--120'>
+          <About />
+        </div>
+
+        <div className='portfolio-area ptb--120 bg_color--1'>
+        <div className='portfolio-sacousel-inner mb--55'>
+          <TechnologyStack />
         </div>
       </div>
     </Layout>
