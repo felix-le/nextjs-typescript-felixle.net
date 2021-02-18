@@ -93,7 +93,7 @@ font-family: 'Poppins', sans-serif;
 @include config-bg-colors('bg_color--',
 '1'$white,
 '2'$theme-color,
-'3'#f8f9fc,
+'3'$gray,
 '4'#1a1b1f,
 '5'#f8f9fc,
 '6'#000000,

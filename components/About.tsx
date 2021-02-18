@@ -20,7 +20,7 @@ const About: React.FunctionComponent = () => (
               <h2 className="title">About Me</h2>
               <p className="description">
                 Hi,
-                I am a Web Developer from Vietnam. I focus on developing with JavaScript and its frameworks: ReactJS, NodeJs. 
+                I am a Web Developer from Vietnam. I focus on developing with JavaScript and its frameworks.
               </p>
             </div>
             <div className="row mt--30 mt_sm--10">

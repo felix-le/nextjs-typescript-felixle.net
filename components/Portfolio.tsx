@@ -25,9 +25,9 @@ const Portfolio: React.FunctionComponent<IProps> = ({ data }) => (
       <div className="row">
         <div className="col-lg-6">
           <div className="section-title">
-            <h2>Portfolio</h2>
+            <h2 className="title">Portfolio</h2>
             <p>
-              These are some products that we have developed for our customers
+              These are some products that I made
             </p>
           </div>
         </div>
