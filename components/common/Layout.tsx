@@ -34,7 +34,7 @@ const Layout: React.FunctionComponent<IProps> = ({
         />
         <meta property="og:url" content="https://www.linkedin.com/in/felix-le/" />
         <meta property="og:site_name" content="Felix Le" />
-        <meta property="og:image" content="/assets/images/about/VA1.jpg" />
+        <meta property="og:image" content="/assets/images/about/VA3.jpg" />
         <meta property="og:image:width" content="1000" />
         <meta property="og:image:height" content="961" />
     </Head>
