@@ -1,10 +1,10 @@
 /*====================
-Mainmenu Area 
+mainMenu Area 
 =====================*/
 
-.mainmenunav {
+.mainMenuNav {
     ul {
-        &.mainmenu {
+        &.mainMenu {
             display: flex;
             justify-content: flex-end;
             @extend %liststyle;
@@ -83,7 +83,7 @@ Mainmenu Area
     }
 }
 
-.humberger-menu{
+.hamburger-men{
     span{
         &.text-white{
             color: #c6c9d8 !important;
@@ -93,9 +93,9 @@ Mainmenu Area
 }
 
 .color-white{
-    .mainmenunav {
+    .mainMenuNav {
         ul {
-            &.mainmenu {
+            &.mainMenu {
                 @extend %liststyle;
                 > li {
                     > a {
@@ -119,9 +119,9 @@ Mainmenu Area
 }
 
 .color-black{
-    .mainmenunav {
+    .mainMenuNav {
         ul {
-            &.mainmenu {
+            &.mainMenu {
                 @extend %liststyle;
                 > li {
                     > a {
@@ -140,19 +140,19 @@ Mainmenu Area
 
 
 @media #{$lg-layout}{
-    .header-style-two .humberger-menu span.text-white {
+    .header-style-two .hamburger-men span.text-white {
         color: #1d1d24 !important;
     }
 }
 
 @media #{$md-layout}{
-    .header-style-two .humberger-menu span.text-white{
+    .header-style-two .hamburger-men span.text-white{
         color: #1d1d24 !important;
     }
 }
 
 @media #{$sm-layout}{
-    .header-style-two .humberger-menu span.text-white{
+    .header-style-two .hamburger-men span.text-white{
         color: #1d1d24 !important;
     }
 }
