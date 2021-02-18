@@ -16,13 +16,8 @@ const Header: React.FunctionComponent = () =>{
 
   function handleScroll() {
     var value = window.scrollY;
-    const logoText = document.querySelector('.logoTopLeft') as HTMLElement;
-    logoText.style.color = '#f9004d';
-    logoText.style.fontSize = "20px";
-    logoText.style.fontWeight = 'bold';
-    logoText.style.letterSpacing = '2px';
+
     if (value > 100) {
-      console.log(logoText);
       (document.querySelector('.header--fixed') as HTMLElement).classList.add(
         'sticky'
       );
@@ -45,7 +40,7 @@ const Header: React.FunctionComponent = () =>{
       <div className="header-wrapper" id="header-wrapper">
         <div className="header-left">
           <div className="logo">
-            <a href="/" className="logoTopLeft">
+            <a href="/" className="logoTopLeft" style={{color : '#f9004d', fontSize : "20px",fontWeight : 'bold', letterSpacing : '2px' }}>
               Felix Le
             </a>
           </div>
