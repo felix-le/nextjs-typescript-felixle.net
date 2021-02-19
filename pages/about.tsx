@@ -28,11 +28,11 @@ const AboutPage: NextPage = () => {
                   <div className="section-title">
                     <h2 className="title">About Me</h2>
                     <p className="description">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quos, id sequi fuga doloremque saepe veritatis est, unde, minima beatae maxime neque alias veniam labore inventore sint numquam nisi debitis!
+                    <strong>I believe that only studying in college cannot fulfill my desire</strong>. That is why I self-study by taking online courses on LinkedIn.com/learning with knowledge of ReactJS/TypeScript/JavaScript/HTML/CSS to develop myself as a full-stack developer. Many new developers learn high-level technologies without understanding the underlying ones. After mastering ReactJS/TypeScript, I spent time learning and tried to replicate what I did in plain JavaScript. Moreover, I study some high concepts of JavaScript like prototypes, Classes, patterns, closures. <strong>This approach allows me to have a solid foundation to adopt new ideas, principles, and solutions quickly and adequately to be well prepared for any job</strong> . This learning method also helps me produce code more effectively, have better problem-solving skills, and obtain correction skills than other programmers. I am also a proactive person who is always two weeks ahead of the school program. It is not rare that I usually come to my professors with doubts and questions whenever I encountered hard-to-solve problems. 
                     </p>
                     <br />
                     <p className="description">
-                      <h4>Our technology stacks:</h4>
+                      <h4>My technology stacks:</h4>
                       <strong>Frontend:</strong>
                       <ul>
                         <li>ReactJS</li>
@@ -47,7 +47,6 @@ const AboutPage: NextPage = () => {
                         <li>Illustration</li>
                       </ul>
                     </p>
-
                   </div>
                 </div>
               </div>
