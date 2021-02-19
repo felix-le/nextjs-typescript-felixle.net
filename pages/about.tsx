@@ -43,7 +43,7 @@ const AboutPage: NextPage = () => {
                       <strong>Other:</strong>
                       <ul>
                         <li>Php</li>
-                        <li>MMySql</li>
+                        <li>MySql</li>
                         <li>Illustration</li>
                       </ul>
                     </p>
