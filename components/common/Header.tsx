@@ -11,7 +11,7 @@ const Header: React.FunctionComponent = () =>{
     );
   };
   function closeMenuTrigger(){
-    (document.querySelector('.header-wrapper') as HTMLElement).classList.remove('remove-open');
+    (document.querySelector('.header-wrapper') as HTMLElement).classList.remove('menu-open');
   }
 
   function handleScroll() {

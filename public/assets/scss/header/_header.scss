@@ -271,7 +271,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
       .header-wrapper {
-        padding: 0px;
+        padding: 0 20px;
 
         a {
           &.rn-btn {
@@ -303,7 +303,7 @@
         }
       }
 
-      .hamburger-men {
+      .hamburger-menu {
         span {
           &.text-white {
             color: $heading-color !important;
@@ -314,7 +314,7 @@
   }
 
   &.color-black {
-    .hamburger-men {
+    .hamburger-menu {
       span {
         &.text-white {
           color: $heading-color !important;
