@@ -32,6 +32,7 @@ const Layout: React.FunctionComponent<IProps> = ({
           property="og:description"
           content=" I am a web developer who provide consultant and mobile and web development"
         />
+        <meta name="google-site-verification" content="XMsTDnI6zOJIY2bfKtGGZe9eJG3WujClHrzBUrtwBJA" />
         <meta property="og:url" content="https://www.linkedin.com/in/felix-le/" />
         <meta property="og:site_name" content="Felix Le" />
         <meta property="og:image" content="/assets/images/about/VA3.jpg" />
