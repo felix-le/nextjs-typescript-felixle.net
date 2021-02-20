@@ -37,6 +37,7 @@ const Layout: React.FunctionComponent<IProps> = ({
         <meta property="og:image" content="/assets/images/about/VA3.jpg" />
         <meta property="og:image:width" content="1000" />
         <meta property="og:image:height" content="961" />
+
     </Head>
     <Header />
     {children}
