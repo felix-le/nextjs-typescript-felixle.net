@@ -35,7 +35,7 @@ const Layout: React.FunctionComponent<IProps> = ({
         <meta name="google-site-verification" content="XMsTDnI6zOJIY2bfKtGGZe9eJG3WujClHrzBUrtwBJA" />
         <meta property="og:url" content="https://www.linkedin.com/in/felix-le/" />
         <meta property="og:site_name" content="Felix Le" />
-        <meta property="og:image" content="/assets/images/about/VA3.jpg" />
+        <meta property="og:image" content="/assets/images/about/url_img.png" />
         <meta property="og:image:width" content="1000" />
         <meta property="og:image:height" content="961" />
         <script
