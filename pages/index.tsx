@@ -18,23 +18,23 @@ const IndexPage: NextPage = () => {
           <HeroBanner/>
         </div>
         
-        <div className='about-area about-position-top ptb--120'>
+        <div className='about-area about-position-top ptb--80'>
           <About />
         </div>
 
-        <div className='portfolio-area ptb--120 bg_color--3'>
+        <div className='portfolio-area pt--80 bg_color--3'>
           <div className='portfolio-carousel-inner'>
             <TechnologyStack />
           </div>
         </div>
 
-        <div className='portfolio-area ptb--120 bg_color--1'>
+        <div className='portfolio-area ptb--80 bg_color--1'>
         <div className='portfolio-carousel-inner mb--55'>
           <Portfolio data={portfolioData} />
         </div>
       </div>
 
-      <div className='rn-contact-top-area ptb--120 bg_color--3'>
+      <div className='rn-contact-top-area ptb--80 bg_color--3'>
         <div className='container'>
           <div className='row'>
             <div className='col-md-12'>
