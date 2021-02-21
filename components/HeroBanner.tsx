@@ -1,7 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-
+import {FaArrowRight} from 'react-icons/fa';
 const HeroBanner: React.FunctionComponent = () => (
   <>
     <div className='heroBanner-c'>
@@ -10,7 +8,7 @@ const HeroBanner: React.FunctionComponent = () => (
           <div className='heroBanner__text__wrapper'>
             <h1 className='heroBanner__tittle'>Welcome to my house!</h1>
             <p className='heroBanner__des'>
-              <FontAwesomeIcon icon={faArrowRight} /> I'm Felix Le,
+              <FaArrowRight/> I'm Felix Le,
               <span className='text-success'> a Web Developer </span>
               and
               <span className='text-danger'> Lifelong learner</span>!
