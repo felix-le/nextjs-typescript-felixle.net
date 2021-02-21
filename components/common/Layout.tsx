@@ -36,8 +36,8 @@ const Layout: React.FunctionComponent<IProps> = ({
         <meta property="og:url" content="https://www.linkedin.com/in/felix-le/" />
         <meta property="og:site_name" content="Felix Le" />
         <meta property="og:image" content="/assets/images/about/url_img.png" />
-        <meta property="og:image:width" content="1000" />
-        <meta property="og:image:height" content="961" />
+        <meta property="og:image:width" content="500" />
+        <meta property="og:image:height" content="500" />
         <script
         dangerouslySetInnerHTML={{
           __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
