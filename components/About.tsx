@@ -20,18 +20,20 @@ const About: React.FunctionComponent = () => (
               <h2 className='title'>About Me</h2>
               <p className='description'>
                 Hi, I am
-                <span className='text-success'> a Web Developer</span>. I focus on developing with
+                <span className='text-success'> a Web Developer</span>. I focus
+                on developing with
                 <span className='text-success'> JavaScript </span>
                 and its frameworks.
               </p>
 
               <h5>Who am I?</h5>
               <p>
-                I am Felix. I am willing to learn, highly
-                responsible and having sound work ethics.
-                <span className='text-success'> Time management is one </span>
-                strength of mine that let me fulfill
-                <span className='text-success'> my full-time job </span>
+                I am Felix. I am willing to learn, highly responsible and having
+                sound work ethics.
+                <span className='text-success'> Time management </span> is one
+                <span className='text-success'> strength </span>
+                of mine that let me fulfill my
+                <span className='text-success'> full-time job </span>
                 as a developer and achieve a
                 <span className='text-success'> GPA of 9.35 </span>
                 from
@@ -57,12 +59,12 @@ const About: React.FunctionComponent = () => (
                 From
                 <span className='text-success'> December 2018 </span>
                 to
-                <span className='text-success'> January 2021 </span>, I worked for
-                three companies – From{' '}
+                <span className='text-success'> January 2021 </span>, I worked
+                for three companies – From{' '}
                 <span className='text-success'> a start-up </span>
                 to <span className='text-success'> a top IT services </span>
                 and outsourcing firm in Vietnam. I have gained solid knowledge
-                and experience in Web Development, which makes me confident in
+                and experience in  <span className='text-success'> Web Development</span>, which makes me confident in
                 developing websites using the latest technologies such as:
                 <span className='text-success'>
                   HTML, CSS, JavaScript, ReactJS, SCSS, Redux, Jss, PHP,
