@@ -18,7 +18,7 @@ const AboutPage: NextPage = () => {
                 <div className="thumbnail">
                   <img
                     className="w-100"
-                    src="/assets/images/about/VA3.jpg"
+                    src="/assets/images/about/VA3.png"
                     alt="JSLancer team"
                   />
                 </div>

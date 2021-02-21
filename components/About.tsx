@@ -8,7 +8,7 @@ const About: React.FunctionComponent = () => (
           <div className='thumbnail'>
             <img
               className='w-100'
-              src='/assets/images/about/VA1.jpg'
+              src='/assets/images/about/VA1.png'
               alt='About Images'
             />
           </div>
@@ -28,7 +28,7 @@ const About: React.FunctionComponent = () => (
 
               <h5>Who am I?</h5>
               <p>
-                I am Felix from Vietnam. I am willing to learn, highly
+                I am Felix. I am willing to learn, highly
                 responsible and having sound work ethics.
                 <span className='text-success'> Time management is one </span>
                 strength of mine that let me fulfill
