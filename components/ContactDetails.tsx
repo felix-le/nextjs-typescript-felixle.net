@@ -52,7 +52,7 @@ const ContactDetails = () => (
         <div className='inner'>
           <h4 className='title'>Phone</h4>
           <p>
-            <a href='tel:+057 254 365 456'>XXX-XXXX-XXXX</a>
+            <a href='tel:+14165584488'>416-558-4488</a>
           </p>
         </div>
       </div>
