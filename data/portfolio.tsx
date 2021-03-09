@@ -214,7 +214,7 @@ const data = [
         <li>Pure CSS</li>
       </ul>
     ),
-    numberImage: 1,
+    numberImage: 2,
   },
   {
     image: 'academicPHP',
@@ -324,61 +324,103 @@ const data = [
         <li>mySQL</li>
       </ul>
     ),
-    numberImage: 1,
+    numberImage: 2,
   },
   {
-    image: 'felixle',
-    href: 'felixle.net',
-    title: 'FelixLe.net',
-    subtitle: 'Learning NextJS and TypeScript by projects.',
+    image: 'EQWorks',
+    href: 'EQWorks',
+    title: 'EQWorks - Work Sample',
+    subtitle: 'A Work Sample Interview',
     description: (
       <>
-        <div>
+        <div className='mt--20'>
           <p>
-            Base on: RESTFUL Apis, I wanted to take its responses and reused
-            them cross the website. By doing that, I thought that it would be
-            easier for maintaining and controlling. <br />
-          </p>
-          <p>
-            For example: I had to build portfolio for Home page (slider),
-            portfolio page, and portfolio detail page. How can I use this their
-            data by a effective way?
-          </p>
-          <p>
-            Step 1: "Saw" my data.
-            <br />
-            Step 2: Tried to build a detail project based on data
-            <br />
-            Step 3: Create component portfolio <br />
-            Step 4: Input component portfolio into Homepage <br />
+            Base on their Back-End repository build a layout <br />
           </p>
           <div>
-            <h4>
-              <strong>What I did:</strong>
-            </h4>
+            <p>
+              <strong>Requirements:</strong>
+            </p>
             <ul>
-              <li>Used Data to cross all three pages in a dynamic way</li>
-              <li>Updated new detail page easy by using data</li>
+              <li>
+                Set environment variables given in the problem set they send to
+                me through email and run
+              </li>
+              <li>
+                Front-end Track Build UI components that leverages the API
+                server from problem 1 to solve problems below.
+              </li>
+              <li>
+                1. Client-side general chart visualizations Implement one or
+                more types of charts that can be used to effectively visualize
+                data supplied from the API endpoints. Users should be able to
+                pick different metrics to visualize and compare with others.
+              </li>
+              <li>
+                2. client-side data table Implement a functional data table that
+                can be used to browse through data supplied from the API
+                endpoints. The data table should allow users to fuzzy search on
+                meaningful values (such as POI names), and matching rows should
+                be highlighted.
+              </li>
+              <li>
+                3. client-side geo visualizations Implement a functional
+                map-based data visualization based on different POI-bound
+                metrics. Users should be able to select different metrics and be
+                able to distinguish each metrics' intensity of different POIs.
+                The map should also allow a certain degree of flexibility for
+                users to zoom in and out, and allow users to see a "clustered"
+                indicator when more than one POIs are too close to each other at
+                the given zoom level.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              <strong>What I did:</strong>
+            </p>
+            <ul>
+              <li>Resolved some issues in their projects</li>
+              <li>Based on their requirements to build a layout.</li>
+            </ul>
+          </div>
+
+          <div>
+            <p>
+              <strong>Result Links: </strong>
+            </p>
+            <ul>
+              <li>
+                <a
+                  href='https://github.com/felix-le/eq_coding_interview'
+                  style={{ color: 'red', fontSize: '18px' }}
+                >
+                  Github
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </>
     ),
+    clientLink: 'https://www.eqworks.com/',
     aboutClient: (
       <ul>
-        <li>Date: 02/2020</li>
-        <li>Site type: Portfolio and Self-blog</li>
+        <li>Date: 03/2021</li>
+        <li>Site type: Work sample</li>
         <li>Owner: Felix Le</li>
       </ul>
     ),
     technology: (
       <ul>
-        <li>TypeScript</li>
-        <li>NextJS</li>
-        <li>Scss</li>
+        <li>ReactJS</li>
+        <li>Redux Toolkit</li>
+        <li>Carbon Charts</li>
+        <li>style-components</li>
+        <li>Express js</li>
       </ul>
     ),
-    numberImage: 1,
+    numberImage: 2,
   },
 ];
 export default data;
