@@ -54,7 +54,7 @@ const PortfolioDetailPage: NextPage = () => {
                       </p>
                       {infoDetail?.clientLink && (
                         <a
-                          href='infoDetail?.clientLink '
+                          href={infoDetail.clientLink}
                           target='_blank'
                           style={{ marginBottom: '10px' }}
                         >
