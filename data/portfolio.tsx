@@ -392,6 +392,14 @@ const data = [
             <ul>
               <li>
                 <a
+                  href='https://eq-coding-interview-final.vercel.app/'
+                  style={{ color: 'red', fontSize: '18px' }}
+                >
+                  Demo
+                </a>
+              </li>
+              <li>
+                <a
                   href='https://github.com/felix-le/eq_coding_interview'
                   style={{ color: 'red', fontSize: '18px' }}
                 >
