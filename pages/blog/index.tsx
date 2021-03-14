@@ -9,7 +9,13 @@ import Layout from '../../components/common/Layout';
 const LearningPage: NextPage = () => {
   return (
     <Layout title='Lifelong learner'>
-      <Breadcrumb title='Learning path' />
+      <Breadcrumb
+        title='Learning path'
+        commit='Always keep an open mind to learn new things'
+        quoteLink='http://science-technology.vn/?author=2'
+        quoteAuthor='(Mr.) John D. Vu Director'
+        bgImg='bg_lifelong_learner'
+      />
       <div className='portfolio-area ptb--120 bg_clor--1'>
         <div className='portfolio-carousel-inner'>
           <div className='container'>
@@ -17,13 +23,7 @@ const LearningPage: NextPage = () => {
               <div className='col-lg-12'>
                 <div className='section-title text-center service-style--3 mb--30'>
                   <h2 className='title'>All Works</h2>
-                  <p>
-                    From December 2018, I fell in love with JavaScript. I worked
-                    at three companies from "like a developer teams" to one of
-                    the biggest company in my country. Through working period, I
-                    learned many things about JavaScript, team work, used tools.
-                    There are some of my website that I built.
-                  </p>
+                  <p>Hello</p>
                 </div>
               </div>
             </div>

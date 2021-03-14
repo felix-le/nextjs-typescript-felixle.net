@@ -132,7 +132,9 @@ font-family: 'Poppins', sans-serif;
         background-image: url(/assets/images/bg/bg-image-#{$i}.jpg);
     }
 }
-
+.bg_image--2{
+    background-image: url(/assets/images/bg/bg-image-2.jpeg);
+}
 @for $i from 1 through 80 {
     .font--#{$i}{
         font-size: #{$i}px !important;
