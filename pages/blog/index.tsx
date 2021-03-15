@@ -91,7 +91,7 @@ const LearningPage: NextPage = () => {
   return (
     <Layout title='Lifelong learner'>
       <Breadcrumb
-        title='Learning path'
+        title='Blog'
         commit='Always keep an open mind to learn new things'
         quoteLink='http://science-technology.vn/?author=2'
         quoteAuthor='(Mr.) John D. Vu Director'
@@ -104,7 +104,7 @@ const LearningPage: NextPage = () => {
               <div className='row'>
                 <div className='col-lg-12'>
                   <div className='section-title text-center service-style--3 mb--30'>
-                    <h2 className='title'>My learning path</h2>
+                    {/* <h2 className='title'>My Blog</h2> */}
                     <p>
                       This is my blog, where I share what I learn, what I read,
                       and something that belongs to my belief.
