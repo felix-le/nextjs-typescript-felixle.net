@@ -168,7 +168,11 @@ Footer Styles
 
 /* Footer Style Two  */
 .footer-style-2 {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
     p {
+
         color: #c6c9d8;
         font-size: 14px;
         opacity: 0.75;
