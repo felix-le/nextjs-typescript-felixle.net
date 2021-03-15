@@ -1,17 +1,17 @@
-import React, {useEffect} from 'react';
-import {FiX, FiMenu} from 'react-icons/fi';
+import React, { useEffect } from 'react';
+import { FiX, FiMenu } from 'react-icons/fi';
 import ActiveLink from './ActiveLink';
 
-
-const Header: React.FunctionComponent = () =>{
-  
-  function menuTrigger(){
+const Header: React.FunctionComponent = () => {
+  function menuTrigger() {
     (document.querySelector('.header-wrapper') as HTMLElement).classList.toggle(
       'menu-open'
     );
-  };
-  function closeMenuTrigger(){
-    (document.querySelector('.header-wrapper') as HTMLElement).classList.remove('menu-open');
+  }
+  function closeMenuTrigger() {
+    (document.querySelector('.header-wrapper') as HTMLElement).classList.remove(
+      'menu-open'
+    );
   }
 
   function handleScroll() {
@@ -28,48 +28,58 @@ const Header: React.FunctionComponent = () =>{
     }
   }
 
-  useEffect(() =>{
+  useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-    return () =>{
+    return () => {
       window.removeEventListener('scroll', handleScroll);
-    }
-  },[])
-  
+    };
+  }, []);
+
   return (
-    <header className="header-area formobile-menu header--fixed default-color">
-      <div className="header-wrapper" id="header-wrapper">
-        <div className="header-left">
-          <div className="logo">
-            <a href="/" className="logoTopLeft" style={{color : '#f9004d', fontSize : "20px",fontWeight : 'bold', letterSpacing : '2px' }}>
+    <header className='header-area formobile-menu header--fixed default-color'>
+      <div className='header-wrapper' id='header-wrapper'>
+        <div className='header-left'>
+          <div className='logo'>
+            <a
+              href='/'
+              className='logoTopLeft'
+              style={{
+                color: '#f9004d',
+                fontSize: '20px',
+                fontWeight: 'bold',
+                letterSpacing: '2px',
+              }}
+            >
               Felix Le
             </a>
           </div>
         </div>
-        <div className="header-right">
-          <nav className="mainMenuNav d-lg-block">
-            <ul className="mainMenu">
-              <ActiveLink href="/" title="Home"/>
-              <ActiveLink href="/about" title="About"/>
-              <ActiveLink href="/portfolio" title="Portfolio"/>
-              <ActiveLink href="/contact" title="Contact"/>
+        <div className='header-right'>
+          <nav className='mainMenuNav d-lg-block'>
+            <ul className='mainMenu'>
+              <ActiveLink href='/' title='Home' />
+              <ActiveLink href='/about' title='About' />
+              <ActiveLink href='/blog' title='Blog' />
+              <ActiveLink href='/portfolio' title='Portfolio' />
+              <ActiveLink href='/contact' title='Contact' />
             </ul>
           </nav>
           {/* Start Hamburger Menu  */}
-          <div className="hamburger-menu d-block d-lg-none pl--20">
-            <span className="menuTrigger text-white" onClick={menuTrigger}>
-              <FiMenu/>
+          <div className='hamburger-menu d-block d-lg-none pl--20'>
+            <span className='menuTrigger text-white' onClick={menuTrigger}>
+              <FiMenu />
             </span>
           </div>
 
           {/* End Hamburger Menu  */}
-          <div className="close-menu d-block d-lg-none">
-            <span className="closeTrigger" onClick={closeMenuTrigger}>
-              <FiX/>
+          <div className='close-menu d-block d-lg-none'>
+            <span className='closeTrigger' onClick={closeMenuTrigger}>
+              <FiX />
             </span>
           </div>
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 export default Header;

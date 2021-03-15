@@ -6,6 +6,9 @@
     .container {
         max-width: 1260px;
     }
+    .breadcrumb-area{
+      min-height: 495px;
+    }
 }
 
 .breadcrumb-inner {
@@ -37,7 +40,9 @@
     }
 }
 
-
+.bg_lifelong_learner{
+  background-image: url(/assets/images/blog/lifelong_learner.webp)
+}
 .breadcrupm-style--2{
     h2 {
         &.title {
@@ -78,10 +83,6 @@
     }
 }
 
-
-
-
-
 .backto-top {
     > div {
         z-index: 999;
@@ -103,7 +104,16 @@
     }
 }
 
-
-
-
-
+.commit{
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.link-quote{
+  color: #B3D48F !important;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}

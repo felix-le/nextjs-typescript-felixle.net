@@ -18,13 +18,13 @@ const About: React.FunctionComponent = () => (
           <div className='about-inner inner'>
             <div className='section-title'>
               <h2 className='title'>About Me</h2>
-              <p className='description'>
+              <div className='description'>
                 Hi, I am
                 <span className='text-success'> a Web Developer</span>. I focus
                 on developing with
                 <span className='text-success'> JavaScript </span>
                 and its frameworks.
-              </p>
+              </div>
 
               <h5>Who am I?</h5>
               <p>
@@ -64,8 +64,10 @@ const About: React.FunctionComponent = () => (
                 <span className='text-success'> a start-up </span>
                 to <span className='text-success'> a top IT services </span>
                 and outsourcing firm in Vietnam. I have gained solid knowledge
-                and experience in  <span className='text-success'> Web Development</span>, which makes me confident in
-                developing websites using the latest technologies such as:
+                and experience in{' '}
+                <span className='text-success'> Web Development</span>, which
+                makes me confident in developing websites using the latest
+                technologies such as:
                 <span className='text-success'>
                   HTML, CSS, JavaScript, ReactJS, SCSS, Redux, Jss, PHP,
                   TypeScript and MySQL database etc.,
