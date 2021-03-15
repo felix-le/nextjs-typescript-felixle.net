@@ -162,3 +162,30 @@
     }
   }
 }
+
+
+// 
+
+.blog_detailPage{
+  .portfolio-details{
+
+    .inner{
+      .subtitle{
+        font-size: 16px;
+      }
+      .link_to_program{
+        color: $hope;
+
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  .contentImage__wrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
