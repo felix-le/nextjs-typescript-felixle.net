@@ -61,7 +61,7 @@ const LearningPage: NextPage = () => {
                 <a href={`/blog/${value.href}`} className='itemContent__inner'>
                   <h4>{value.title}</h4>
                 </a>
-                <ul className='tagList_wrapper'>
+                <ul className='tagList_wrapper body_article'>
                   {value.tags.map((item, i) => (
                     <li className='tagName__wrapper' key={i}>
                       <span
@@ -113,8 +113,26 @@ const LearningPage: NextPage = () => {
                 </div>
               </div>
               <div className='row'>
-                <div className='learning_path_menu'>
-                  <div className='col-lg-10 col-md-12 col-sm-12 col-12'>
+                <div className='col-12'>
+                  <div className='iconShow_wrapper'>
+                    <div
+                      className='iconShow'
+                      onClick={(): any => setIsShowThumbnail(true)}
+                    >
+                      <FaFileImage />
+                    </div>
+                    <div
+                      className='iconShow'
+                      onClick={(): any => setIsShowThumbnail(false)}
+                    >
+                      <FaListUl />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='row'>
+                <div className='learning_path_menu mt--20'>
+                  <div className='col-12'>
                     <ul className='tagList_wrapper'>
                       {topics.map((item, i) => (
                         <li key={i} className='tagName__wrapper'>
@@ -128,24 +146,9 @@ const LearningPage: NextPage = () => {
                       ))}
                     </ul>
                   </div>
-                  <div className='col-lg-2 col-md-12 col-sm-12 col-12'>
-                    <div className='iconShow_wrapper'>
-                      <div
-                        className='iconShow'
-                        onClick={(): any => setIsShowThumbnail(true)}
-                      >
-                        <FaFileImage />
-                      </div>
-                      <div
-                        className='iconShow'
-                        onClick={(): any => setIsShowThumbnail(false)}
-                      >
-                        <FaListUl />
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
+
               <div className='row'>
                 {isShowThumbnail === true ? (
                   <>
