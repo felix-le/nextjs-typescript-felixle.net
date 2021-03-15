@@ -1,0 +1,163 @@
+/*====================
+    Blog Area
+======================*/
+.blog_area{
+
+
+  .learning_path_menu{
+    display: flex;
+    width: 100%;
+    @media #{$md-layout} {
+      flex-direction: column-reverse;
+      margin-top: 45px;
+    }
+    @media #{$lg-layout} {
+      flex-direction: column-reverse;
+      margin-top: 65px;
+    }
+    @media #{$sm-layout} {
+      flex-direction: column-reverse;
+      margin-top: 30px;
+    }
+
+    @media #{$large-mobile} {
+      flex-direction: column-reverse;
+      margin-top: 20px;
+      margin-bottom:40px;
+    }
+  }
+  .tagList_wrapper{
+    list-style-type: none;
+    padding: 0; 
+    display: flex;flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    .tagName__wrapper{
+      margin-right: 10px;
+  
+      &:last-child{
+        margin-right: 0;
+      }
+      &:nth-child(n+ 1){
+        @media #{$sm-layout}{
+          margin-top: 10px;
+        }
+        @media #{$md-layout}{
+          margin-top: 10px;
+        }
+      }
+      .tagName{
+        padding: 10px;
+        border: 1px $hope solid;
+        cursor: pointer;
+        color: $hope;
+        text-transform: capitalize;
+        display: block;
+        &:hover{
+          color: white;
+          background-color:$hope;
+        }
+
+        .isActive{
+          color: white;
+          background-color:$hope;
+        }
+
+        &__article{
+          padding: 5px; 
+          border: 1px $theme-color solid;
+          color: $theme-color;
+          text-transform: capitalize;
+          display: block;
+          cursor: pointer;
+          &:hover{
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+
+  .iconShow_wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+
+    @media #{$md-layout} {
+       text-align: center;
+       justify-content: center;
+       height: auto;
+    }
+
+    @media #{$sm-layout} {
+      text-align: center;
+      justify-content: center;
+      height: auto;
+   }
+   @media #{$large-mobile} {
+    height: auto;
+  }
+    .iconShow{
+      margin-right: 10px;
+      // font-size: 27px;
+      color: $hope;
+      padding: 10px;
+      border: 1px $hope solid;
+      cursor: pointer;
+      display: block;
+
+      &:hover{
+        color: white;
+        background-color:$hope;
+      }
+    }
+    .iconShow:last-child{
+      margin-right: 0;
+    }
+  }
+.gg_project_management_week_1{
+  background-image: url(/assets/images/blog/gg_project_management_week_1/1.png)
+}
+ .itemContent__wrapper{
+    display: block;
+    margin-top: 45px;
+
+   @media #{$lg-layout} {
+    margin-top: 40px;
+  }
+  @media #{$md-layout} {
+    margin-top: 30px;
+  }
+  @media #{$sm-layout} {
+    margin-top: 20px;
+  }
+    .itemContent{
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+
+      .itemContent__des{
+        height: 100px;
+        line-height: 20px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        box-orient: vertical;
+        -webkit-line-clamp: 5;
+        line-clamp: 5;
+        overflow: hidden;
+        @media #{$large-mobile} {
+          height: 85px;
+          -webkit-line-clamp: 3;
+        }
+        @media #{$sm-layout} {
+          height: 85px;
+          -webkit-line-clamp: 3;
+        }
+      }
+    }
+    &:hover{
+
+    }
+  }
+}
