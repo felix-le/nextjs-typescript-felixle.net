@@ -5,6 +5,13 @@ ul {
         padding: 0;
         margin: 0;
         margin: -6px;
+        @media only screen and (max-width: 992px) {
+            justify-content: center  ;
+          }
+          @media only screen and (max-width: 758px) {
+            justify-content: center  ;
+            display: flex;
+          }
         li {
             margin: 6px;
             a {
