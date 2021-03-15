@@ -1,5 +1,3 @@
-import React from 'react';
-
 export interface IData {
   title: string;
   image: string;
