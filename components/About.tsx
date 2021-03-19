@@ -35,7 +35,7 @@ const About: React.FunctionComponent = () => (
                 of mine that let me fulfill my
                 <span className='text-success'> full-time job </span>
                 as a developer and achieve a
-                <span className='text-success'> GPA of 9.35 </span>
+                <span className='text-success'> GPA of 4.0/4.0 </span>
                 from
                 <span className='text-success'> Georgian college </span>
                 at the same time.
@@ -83,7 +83,7 @@ const About: React.FunctionComponent = () => (
               {/* <p>
                   From December 2018 to January 2021, I worked for three companies – <strong>From a start-up to a top IT services and outsourcing firm </strong>  in Vietnam. All of my projects used HTML, CSS, JavaScript, ReactJS, SCSS, etc., which helped me become a skillful JavaScript developer to adapt to diverse environments quickly. One of those is a calling-center website, in which we worked with demanding customers, dealt with changing requirements to rest APIs from a reasonably complicated database server by using Axios. The website was developed using <strong>UI library materials, maintained HTML, CSS JavaScript codes by using ReactJS, Redux, Jss </strong>. I also have experience working with TypeScript and MySQL database with most of my works and fundamental subjects in Georgian College (e.g., PHP, Database). <br/>
                   Currently, I'm a Georgian College student in Canada and expecting to graduate 2022.
-                  <strong> Time management is one strength of mine </strong> that let me fulfill my full-time job as a developer and achieve a <strong> GPA of 9.35 from Georgian college at the same time.</strong> <br/>
+                  <strong> Time management is one strength of mine </strong> that let me fulfill my full-time job as a developer and achieve a <strong> GPA of 4.0/4.0 from Georgian college at the same time.</strong> <br/>
                    I'm settling down in Toronto, a beautiful city. I would like to have a summer co-op term in the city. 
                   </p> */}
             </div>
