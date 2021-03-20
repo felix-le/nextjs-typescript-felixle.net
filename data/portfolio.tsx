@@ -430,5 +430,109 @@ const data = [
     ),
     numberImage: 2,
   },
+  {
+    image: 'EQWorks',
+    href: 'EQWorks',
+    title: 'EQWorks - Work Sample',
+    subtitle: 'A Work Sample Interview',
+    description: (
+      <>
+        <div className='mt--20'>
+          <p>
+            Base on their Back-End repository build a layout <br />
+          </p>
+          <div>
+            <p>
+              <strong>Requirements:</strong>
+            </p>
+            <ul>
+              <li>
+                Set environment variables given in the problem set they send to
+                me through email and run
+              </li>
+              <li>
+                Front-end Track Build UI components that leverages the API
+                server from problem 1 to solve problems below.
+              </li>
+              <li>
+                1. Client-side general chart visualizations Implement one or
+                more types of charts that can be used to effectively visualize
+                data supplied from the API endpoints. Users should be able to
+                pick different metrics to visualize and compare with others.
+              </li>
+              <li>
+                2. client-side data table Implement a functional data table that
+                can be used to browse through data supplied from the API
+                endpoints. The data table should allow users to fuzzy search on
+                meaningful values (such as POI names), and matching rows should
+                be highlighted.
+              </li>
+              <li>
+                3. client-side geo visualizations Implement a functional
+                map-based data visualization based on different POI-bound
+                metrics. Users should be able to select different metrics and be
+                able to distinguish each metrics' intensity of different POIs.
+                The map should also allow a certain degree of flexibility for
+                users to zoom in and out, and allow users to see a "clustered"
+                indicator when more than one POIs are too close to each other at
+                the given zoom level.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              <strong>What I did:</strong>
+            </p>
+            <ul>
+              <li>Resolved some issues in their projects</li>
+              <li>Based on their requirements to build a layout.</li>
+            </ul>
+          </div>
+
+          <div>
+            <p>
+              <strong>Result Links: </strong>
+            </p>
+            <ul>
+              <li>
+                <a
+                  href=' https://eq-coding-interview.vercel.app/'
+                  style={{ color: 'red', fontSize: '18px' }}
+                >
+                  Demo
+                </a>
+              </li>
+              <li>
+                <a
+                  href='https://github.com/felix-le/eq_coding_interview'
+                  style={{ color: 'red', fontSize: '18px' }}
+                >
+                  Github
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </>
+    ),
+    clientLink: 'https://www.eqworks.com/',
+    aboutClient: (
+      <ul>
+        <li>Date: 03/2021</li>
+        <li>Site type: Work sample</li>
+        <li>Owner: Felix Le</li>
+      </ul>
+    ),
+    technology: (
+      <ul>
+        <li>ReactJS</li>
+        <li>Redux Toolkit</li>
+        <li>Carbon Charts</li>
+        <li>style-components</li>
+        <li>Express js</li>
+      </ul>
+    ),
+    numberImage: 2,
+  },
 ];
 export default data;
