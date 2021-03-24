@@ -26,7 +26,7 @@ const About: React.FunctionComponent = () => (
                 and its frameworks.
               </div>
 
-              <h5>Who am I?</h5>
+              <h5 className='mt--10'>Who am I?</h5>
               <p>
                 I am Felix. I am willing to learn, highly responsible and having
                 sound work ethics.

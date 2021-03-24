@@ -106,7 +106,10 @@ const LearningPage: NextPage = () => {
                   <div className='section-title text-center service-style--3 mb--30'>
                     {/* <h2 className='title'>My Blog</h2> */}
                     <p>
-                    When you go to work, when you begin your own independent lives, you are responsible for your own career and your own happiness. There are no grades, no degree, no judges, no pass or fail but you have to create your own rules, your own learning, and your own lives. How you live, how you work, how you react, how you support your family, your society, your people, and how do you educate yourselves to face the “Real life” will determine your happiness.
+                      How you live, how you work, how you react, how you support
+                      your family, your society, your people, and how do you
+                      educate yourselves to face the “Real life” will determine
+                      your happiness.
                     </p>
                   </div>
                 </div>
