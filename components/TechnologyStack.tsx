@@ -21,7 +21,6 @@ const TechnologyItem = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   @media screen and (max-width: 500px) {
     width: 50%;
     margin-right: 0;
@@ -39,7 +38,7 @@ const TechnologyName = styled.div`
   text-align: center;
 `;
 
-const frontendItems = [
+const mainSkills = [
   {
     image: 'assets/images/technology/javascript.png',
     name: 'JavaScript',
@@ -56,30 +55,24 @@ const frontendItems = [
     image: 'assets/images/technology/typescript.png',
     name: 'TypeScript',
   },
-  {
-    image: 'assets/images/technology/illustrator.png',
-    name: 'illustrator',
-  },
 ];
 
-const backendItems = [
+const otherItems = [
   {
     image: 'assets/images/technology/mysql.png',
     name: 'MySQL',
   },
-];
-const otherItems = [
   {
     image: 'assets/images/technology/php.png',
     name: 'PHP',
   },
   {
-    image: 'assets/images/technology/illustrator.png',
-    name: 'illustrator',
-  },
-  {
     image: 'assets/images/technology/java.png',
     name: 'java',
+  },
+  {
+    image: 'assets/images/technology/illustrator.png',
+    name: 'illustrator',
   },
 ];
 
@@ -96,9 +89,9 @@ const TechnologyStack: React.FunctionComponent = () => (
       <div className='row'>
         <div className='col-md-12'>
           <div className='section-title'>
-            <ListTitle>Front-end</ListTitle>
+            <ListTitle>Main Skills</ListTitle>
             <TechnologyList>
-              {frontendItems.map((item) => (
+              {mainSkills.map((item) => (
                 <TechnologyItem key={item.name}>
                   <TechnologyImage src={item.image} alt={item.name} />
                   <TechnologyName>{item.name}</TechnologyName>
@@ -106,23 +99,14 @@ const TechnologyStack: React.FunctionComponent = () => (
               ))}
             </TechnologyList>
 
-            <ListTitle>Back-end</ListTitle>
+            <ListTitle>Others</ListTitle>
             <TechnologyList>
-              {backendItems.map((item) => (
+              {otherItems.map((item) => (
                 <TechnologyItem key={item.name}>
                   <TechnologyImage src={item.image} alt={item.name} />
                   <TechnologyName>{item.name}</TechnologyName>
                 </TechnologyItem>
               ))}
-            </TechnologyList>
-            <ListTitle>Others</ListTitle>
-            <TechnologyList>
-              {otherItems.map((item) => {
-                <TechnologyItem key={item.name}>
-                  <TechnologyImage src={item.image} alt={item.name} />
-                  <TechnologyName>{item.name}</TechnologyName>
-                </TechnologyItem>;
-              })}
             </TechnologyList>
           </div>
         </div>
