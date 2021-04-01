@@ -39,41 +39,67 @@ const TechnologyName = styled.div`
   text-align: center;
 `;
 
-const frontendItems = [{
-  image: 'assets/images/technology/javascript.png',
-  name: 'JavaScript',
-}, {
-  image: 'assets/images/technology/react.png',
-  name: 'React',
-}, {
-  image: 'assets/images/technology/redux.png',
-  name: 'Redux',
-},{
-  image: 'assets/images/technology/typescript.png',
-  name: 'TypeScript',
-}];
+const frontendItems = [
+  {
+    image: 'assets/images/technology/javascript.png',
+    name: 'JavaScript',
+  },
+  {
+    image: 'assets/images/technology/react.png',
+    name: 'React',
+  },
+  {
+    image: 'assets/images/technology/redux.png',
+    name: 'Redux',
+  },
+  {
+    image: 'assets/images/technology/typescript.png',
+    name: 'TypeScript',
+  },
+  {
+    image: 'assets/images/technology/illustrator.png',
+    name: 'illustrator',
+  },
+];
 
-const backendItems = [{
-  image: 'assets/images/technology/mysql.png',
-  name: 'MySQL'
-}]
+const backendItems = [
+  {
+    image: 'assets/images/technology/mysql.png',
+    name: 'MySQL',
+  },
+];
+const otherItems = [
+  {
+    image: 'assets/images/technology/php.png',
+    name: 'PHP',
+  },
+  {
+    image: 'assets/images/technology/illustrator.png',
+    name: 'illustrator',
+  },
+  ,
+  {
+    image: 'assets/images/technology/java.png',
+    name: 'java',
+  },
+];
 
 const TechnologyStack: React.FunctionComponent = () => (
-  <div className="portfolio-wrapper">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <div className="section-title">
-            <h2 className="title">Technologies</h2>
+  <div className='portfolio-wrapper'>
+    <div className='container'>
+      <div className='row'>
+        <div className='col-md-12'>
+          <div className='section-title'>
+            <h2 className='title'>Technologies</h2>
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-md-12">
-          <div className="section-title">
+      <div className='row'>
+        <div className='col-md-12'>
+          <div className='section-title'>
             <ListTitle>Front-end</ListTitle>
             <TechnologyList>
-              {frontendItems.map(item => (
+              {frontendItems.map((item) => (
                 <TechnologyItem key={item.name}>
                   <TechnologyImage src={item.image} alt={item.name} />
                   <TechnologyName>{item.name}</TechnologyName>
@@ -83,7 +109,16 @@ const TechnologyStack: React.FunctionComponent = () => (
 
             <ListTitle>Back-end</ListTitle>
             <TechnologyList>
-              {backendItems.map(item => (
+              {backendItems.map((item) => (
+                <TechnologyItem key={item.name}>
+                  <TechnologyImage src={item.image} alt={item.name} />
+                  <TechnologyName>{item.name}</TechnologyName>
+                </TechnologyItem>
+              ))}
+            </TechnologyList>
+            <ListTitle>Others</ListTitle>
+            <TechnologyList>
+              {otherItems.map((item) => (
                 <TechnologyItem key={item.name}>
                   <TechnologyImage src={item.image} alt={item.name} />
                   <TechnologyName>{item.name}</TechnologyName>
