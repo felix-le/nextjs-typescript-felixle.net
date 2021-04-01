@@ -77,7 +77,6 @@ const otherItems = [
     image: 'assets/images/technology/illustrator.png',
     name: 'illustrator',
   },
-  ,
   {
     image: 'assets/images/technology/java.png',
     name: 'java',
@@ -119,9 +118,9 @@ const TechnologyStack: React.FunctionComponent = () => (
             <ListTitle>Others</ListTitle>
             <TechnologyList>
               {otherItems.map((item) => {
-                <TechnologyItem key={item?.name}>
-                  <TechnologyImage src={item?.image} alt={item?.name} />
-                  <TechnologyName>{item?.name}</TechnologyName>
+                <TechnologyItem key={item.name}>
+                  <TechnologyImage src={item.image} alt={item.name} />
+                  <TechnologyName>{item.name}</TechnologyName>
                 </TechnologyItem>;
               })}
             </TechnologyList>
