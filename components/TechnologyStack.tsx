@@ -118,12 +118,14 @@ const TechnologyStack: React.FunctionComponent = () => (
             </TechnologyList>
             <ListTitle>Others</ListTitle>
             <TechnologyList>
-              {otherItems.map((item) => (
-                <TechnologyItem key={item.name}>
-                  <TechnologyImage src={item.image} alt={item.name} />
-                  <TechnologyName>{item.name}</TechnologyName>
-                </TechnologyItem>
-              ))}
+              {otherItems.map((item) => {
+                if (item) {
+                  <TechnologyItem key={item.name}>
+                    <TechnologyImage src={item.image} alt={item.name} />
+                    <TechnologyName>{item.name}</TechnologyName>
+                  </TechnologyItem>;
+                }
+              })}
             </TechnologyList>
           </div>
         </div>
