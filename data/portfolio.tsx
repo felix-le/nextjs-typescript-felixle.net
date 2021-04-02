@@ -23,14 +23,14 @@ const data = [
       <>
         <div>
           <p>
-            Base on: RESTFUL Apis, I wanted to take its responses and reused
-            them cross the website. By doing that, I thought that it would be
-            easier for maintaining and controlling. <br />
+            Base on: RESTFUL Apis, I wanted to take its responses and reuse them
+            across the website. By doing that, I thought that it would be easier
+            for maintaining and controlling. <br />
           </p>
           <p>
-            For example: I had to build portfolio for Home page (slider),
-            portfolio page, and portfolio detail page. How can I use this their
-            data by a effective way?
+            For example, I had to build a portfolio for the Home page (slider),
+            portfolio page, and portfolio detail page. How can I use their data
+            in an effective way?
           </p>
           <br />
           <p>
