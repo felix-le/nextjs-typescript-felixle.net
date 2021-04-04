@@ -431,51 +431,43 @@ const data = [
     numberImage: 2,
   },
   {
-    image: 'EQWorks',
-    href: 'EQWorks',
-    title: 'EQWorks - Work Sample',
-    subtitle: 'A Work Sample Interview',
+    image: 'illustrator',
+    href: 'illustrator',
+    title: 'illustrator',
+    subtitle: 'A Work Sample illustrator',
     description: (
       <>
         <div className='mt--20'>
           <p>
-            Base on their Back-End repository build a layout <br />
+            Your final assignment will be a home page and mobile version of your
+            own website. This design does not need to be a functional website –
+            A3 is to show application of learned design principles. <br />
           </p>
           <div>
             <p>
-              <strong>Requirements:</strong>
+              <strong>Requirements - DESIGN PRINCIPLES::</strong>
             </p>
             <ul>
+              <li>Grid theory</li>
               <li>
-                Set environment variables given in the problem set they send to
-                me through email and run
+                Balance: symmetry – reflective (vertical, horizontal, &amp;
+                bilateral), rotative, &amp; translative, asymmetry
+              </li>
+              <li>Grid theory</li>
+              <li>Unity: proximity &amp; repetition</li>
+              <li>
+                Dimension (raster): perspective (overlapping, blurring, &amp;
+                sharpening), proportion, light &amp; shadow, &amp; pattern
+                (texture)
               </li>
               <li>
-                Front-end Track Build UI components that leverages the API
-                server from problem 1 to solve problems below.
+                Dimension (vector): point, line, &amp; shape, rounded corners,
+                &amp; rotation
               </li>
               <li>
-                1. Client-side general chart visualizations Implement one or
-                more types of charts that can be used to effectively visualize
-                data supplied from the API endpoints. Users should be able to
-                pick different metrics to visualize and compare with others.
-              </li>
-              <li>
-                2. client-side data table Implement a functional data table that
-                can be used to browse through data supplied from the API
-                endpoints. The data table should allow users to fuzzy search on
-                meaningful values (such as POI names), and matching rows should
-                be highlighted.
-              </li>
-              <li>
-                3. client-side geo visualizations Implement a functional
-                map-based data visualization based on different POI-bound
-                metrics. Users should be able to select different metrics and be
-                able to distinguish each metrics' intensity of different POIs.
-                The map should also allow a certain degree of flexibility for
-                users to zoom in and out, and allow users to see a "clustered"
-                indicator when more than one POIs are too close to each other at
-                the given zoom level.
+                Emphasis: placement, continuance, isolation, contrast,
+                proportion, &amp; navigation positive &amp; negative space,
+                colour modes &amp; schemes
               </li>
             </ul>
           </div>
@@ -484,52 +476,42 @@ const data = [
               <strong>What I did:</strong>
             </p>
             <ul>
-              <li>Resolved some issues in their projects</li>
-              <li>Based on their requirements to build a layout.</li>
-            </ul>
-          </div>
-
-          <div>
-            <p>
-              <strong>Result Links: </strong>
-            </p>
-            <ul>
               <li>
-                <a
-                  href=' https://eq-coding-interview.vercel.app/'
-                  style={{ color: 'red', fontSize: '18px' }}
-                >
-                  Demo
-                </a>
+                This layout is used to run a non-profit campaign to raise
+                awareness of Vietnamese people. In our country, dog meat is a
+                popular dish. People will sign up with me by donating or sharing
+                campaign information on social media by clicking on
+                call-to-action buttons. All photos used in the exercise are
+                cited at the end of the article and are strictly subject to the
+                image page owner's policies.
               </li>
               <li>
-                <a
-                  href='https://github.com/felix-le/eq_coding_interview'
-                  style={{ color: 'red', fontSize: '18px' }}
-                >
-                  Github
-                </a>
+                The website is a story about the friendship between Xiki (the
+                dog) and Maria. Together, they overcame all difficulties in
+                life, happy moments, and even when Maria got old (Xiki died
+                already), she still lived with Xiki's children. I want visitors
+                to come to the website to have experiences as being involved in
+                this story. Therefore, I design the website in the direction of
+                gentle stories, realistic illustrations, close text. The flow of
+                that story is: when Maria was a baby, Xiki stayed with and
+                shared feelings until Maria grew up, got married, and got old
               </li>
             </ul>
           </div>
         </div>
       </>
     ),
-    clientLink: 'https://www.eqworks.com/',
+    clientLink: 'https://www.georgiancollege.ca/',
     aboutClient: (
       <ul>
-        <li>Date: 03/2021</li>
-        <li>Site type: Work sample</li>
+        <li>Date: 01/2020</li>
+        <li>Site type: academic assignment</li>
         <li>Owner: Felix Le</li>
       </ul>
     ),
     technology: (
       <ul>
-        <li>ReactJS</li>
-        <li>Redux Toolkit</li>
-        <li>Carbon Charts</li>
-        <li>style-components</li>
-        <li>Express js</li>
+        <li>illustrator</li>
       </ul>
     ),
     numberImage: 2,
