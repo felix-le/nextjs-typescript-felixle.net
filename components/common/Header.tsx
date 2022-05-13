@@ -22,9 +22,9 @@ const Header: React.FunctionComponent = () => {
         'sticky'
       );
     } else {
-      (document.querySelector(
-        '.header--fixed'
-      ) as HTMLElement).classList.remove('sticky');
+      (
+        document.querySelector('.header--fixed') as HTMLElement
+      ).classList.remove('sticky');
     }
   }
 
@@ -62,10 +62,10 @@ const Header: React.FunctionComponent = () => {
               <li>
                 <a
                   className='nav-link blog-link'
-                  href='https://felixle.ca/'
+                  href='https://www.youtube.com/channel/UC31KPVGJWHjSgczl783Vlcg'
                   target='_blank'
                 >
-                  Blog{' '}
+                  My Channel
                 </a>
               </li>
               <ActiveLink href='/portfolio' title='Portfolio' />
