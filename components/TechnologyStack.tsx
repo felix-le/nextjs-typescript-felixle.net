@@ -48,12 +48,25 @@ const mainSkills = [
     name: 'React',
   },
   {
-    image: 'assets/images/technology/redux.png',
-    name: 'Redux',
-  },
-  {
     image: 'assets/images/technology/typescript.png',
     name: 'TypeScript',
+  },
+
+  {
+    image: 'assets/images/technology/python.png',
+    name: 'Python',
+  },
+  {
+    image: 'assets/images/technology/php.png',
+    name: 'PHP',
+  },
+  {
+    image: 'assets/images/technology/gatsby.png',
+    name: 'Gatsby',
+  },
+  {
+    image: 'assets/images/technology/redux.png',
+    name: 'Redux',
   },
 ];
 
@@ -62,10 +75,7 @@ const otherItems = [
     image: 'assets/images/technology/mysql.png',
     name: 'MySQL',
   },
-  {
-    image: 'assets/images/technology/php.png',
-    name: 'PHP',
-  },
+
   {
     image: 'assets/images/technology/java.png',
     name: 'java',
@@ -73,6 +83,14 @@ const otherItems = [
   {
     image: 'assets/images/technology/illustrator.png',
     name: 'illustrator',
+  },
+  {
+    image: 'assets/images/technology/graphql.png',
+    name: 'GraphQL',
+  },
+  {
+    image: 'assets/images/technology/mongodb.png',
+    name: 'MongoDB',
   },
 ];
 

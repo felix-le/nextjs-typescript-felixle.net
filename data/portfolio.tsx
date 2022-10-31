@@ -58,6 +58,9 @@ const data = [
         <li>Date: 02/2020</li>
         <li>Site type: Portfolio and Self-blog</li>
         <li>Owner: Felix Le</li>
+        <li>
+          Github: https://github.com/felix-le/nextjs-typescript-felixle.net
+        </li>
       </ul>
     ),
     technology: (
@@ -70,43 +73,87 @@ const data = [
     numberImage: 1,
   },
   {
-    image: 'tetris',
-    href: 'tetris',
-    title: 'Tetris',
-    subtitle: 'Learning JavaScript from freeCodeCamp',
+    image: 'perpetua',
+    href: 'perpetua',
+    title: 'perpetua - website',
+    subtitle:
+      'Create a website for Perpetua including a backend server and frontend.',
     description: (
       <>
         <div>
           <p>
-            Base on: Vanilla JavaScript
+            ExpressJS + ReactJS +TypeScript
             <br />
           </p>
-          <p>following tetris game on freeCodeCamp YouTube</p>
+          This assessment will be evaluated based on the following criteria:{' '}
+          <br />
+          ● Correctness: Is your solution complete and does it pass different
+          test cases?
+          <br />
+          ● Code Organization, Readability, & Maintainability: Is your code easy
+          to read and well organized?
+          <br />
+          ● Code Performance: Is your code efficient? Did you use appropriate
+          data structures?
+          <br />
+          ● Best Practices: Did you utilize good programming practices (write
+          unit tests, avoid anti-patterns)? Did you show a good grasp of your
+          language/framework of choice?
           <br />
           <div>
-            <p>
+            <p className='mt-2'>
               <strong>What I did:</strong>
             </p>
             <ul>
-              <li>Recode all the code</li>
+              <li>
+                Created a website with a Backend server(ExpressJS) and a Front
+                end side (ReactJS + TypeScript)
+              </li>
             </ul>
           </div>
+        </div>
+        <div>
+          <p>
+            <strong>Result Links: </strong>
+          </p>
+          <ul>
+            <li>
+              <a
+                href='https://github.com/felix-le/perpetua-be'
+                target='_blank'
+                style={{ color: 'red', fontSize: '18px' }}
+              >
+                Github Backend Repo
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://github.com/felix-le/perpetua-fe'
+                target='_blank'
+                style={{ color: 'red', fontSize: '18px' }}
+              >
+                Github Frontend Repo
+              </a>
+            </li>
+          </ul>
         </div>
       </>
     ),
     aboutClient: (
       <ul>
         <li>Date: 02/2020</li>
-        <li>Site type: habits</li>
-        <li>Owner: freeCodeCamp</li>
+        <li>Site type: Interview</li>
+        <li>Owner: Felix Le</li>
       </ul>
     ),
     technology: (
       <ul>
-        <li>JavaScript</li>
+        <li>ReactJS</li>
+        <li>TypeScript</li>
+        <li>ExpressJS</li>
       </ul>
     ),
-    numberImage: 2,
+    numberImage: 1,
   },
   // {
   //   image: 'iGEM',
@@ -381,7 +428,10 @@ const data = [
             </p>
             <ul>
               <li>Resolved some issues in their projects</li>
-              <li>Based on their requirements to build a layout.</li>
+              <li>
+                Created a website to visualize data where users can filtering,
+                sorting, ...
+              </li>
             </ul>
           </div>
 
@@ -392,7 +442,7 @@ const data = [
             <ul>
               <li>
                 <a
-                  href=' https://eq-coding-interview.vercel.app/'
+                  href=' https://inquisitive-hummingbird-16bca5.netlify.app/'
                   style={{ color: 'red', fontSize: '18px' }}
                 >
                   Demo
@@ -400,7 +450,7 @@ const data = [
               </li>
               <li>
                 <a
-                  href='https://github.com/felix-le/eq_coding_interview'
+                  href='https://github.com/felix-le/data-visualization'
                   style={{ color: 'red', fontSize: '18px' }}
                 >
                   Github

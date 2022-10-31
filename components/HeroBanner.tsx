@@ -10,7 +10,7 @@ const HeroBanner: React.FunctionComponent = () => (
             <h1 className='heroBanner__tittle'>Welcome to my house!</h1>
             <p className='heroBanner__des'>
               <FaArrowRight /> I'm Felix Le,
-              <span className='text-success'> a Web Developer </span>
+              <span className='text-success'> a Full-Stack developer </span>
               and
               <span className='text-danger'> Lifelong learner</span>!
             </p>

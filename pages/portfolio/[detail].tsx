@@ -48,8 +48,15 @@ const PortfolioDetailPage: NextPage = () => {
                 <div className='col-lg-12'>
                   <div className='portfolio-details'>
                     <div className='inner'>
-                      <h2>{infoDetail?.title}</h2>
-                      <p className='subtitle' style={{ marginBottom: 0 }}>
+                      <h2
+                        style={{
+                          textTransform: 'uppercase',
+                          color: 'rgb(249, 0, 77)',
+                        }}
+                      >
+                        {infoDetail?.title}
+                      </h2>
+                      <p className='subtitle ' style={{ marginBottom: 0 }}>
                         <strong>{infoDetail?.subtitle}</strong>
                       </p>
                       {infoDetail?.clientLink && (
@@ -65,13 +72,17 @@ const PortfolioDetailPage: NextPage = () => {
                       <div className='portfolio-view-list d-flex flex-wrap'>
                         {infoDetail?.aboutClient && (
                           <div className='port-view'>
-                            <h4>About the project/task</h4>
+                            <p>
+                              <strong>About the project/task</strong>
+                            </p>
                             {infoDetail?.aboutClient}
                           </div>
                         )}
                         {infoDetail?.technology && (
                           <div className='port-view'>
-                            <h4>Technology stack</h4>
+                            <p>
+                              <strong>Technology stack</strong>
+                            </p>
                             {infoDetail?.technology}
                           </div>
                         )}

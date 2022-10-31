@@ -59,7 +59,7 @@ const Header: React.FunctionComponent = () => {
             <ul className='mainMenu'>
               <ActiveLink href='/' title='Home' />
               <ActiveLink href='/about' title='About' />
-              <li>
+              {/* <li>
                 <a
                   className='nav-link blog-link'
                   href='https://www.youtube.com/channel/UC31KPVGJWHjSgczl783Vlcg'
@@ -67,7 +67,7 @@ const Header: React.FunctionComponent = () => {
                 >
                   My Channel
                 </a>
-              </li>
+              </li> */}
               <ActiveLink href='/portfolio' title='Portfolio' />
               <ActiveLink href='/contact' title='Contact' />
             </ul>
