@@ -157,6 +157,47 @@ const data = [
     numberImage: 1,
   },
   {
+    image: 'aibconstruction',
+    href: 'aibconstruction',
+    title: 'aibconstruction',
+    subtitle: 'Front end, back end, designer',
+    description: (
+      <>
+        <div>
+          <p>
+            Website for my client. I created this site from scratch in
+            front-end, back-end, also designer.
+          </p>
+        </div>
+      </>
+    ),
+    aboutClient: (
+      <ul>
+        <li>Date: 10/2022</li>
+        <li>Site type: freelancer</li>
+        <li>
+          Live:{' '}
+          <a
+            target='_blank'
+            style={{ color: '#ca3c08' }}
+            href='https://aibconstruction.netlify.app/'
+          >
+            {' '}
+            https://aibconstruction.netlify.app/{' '}
+          </a>
+        </li>
+      </ul>
+    ),
+    technology: (
+      <ul>
+        <li>Gatsby</li>
+        <li>ReactJS</li>
+        <li>Strapi</li>
+      </ul>
+    ),
+    numberImage: 1,
+  },
+  {
     image: 'dataTable',
     href: 'dataTable',
     title: 'A data table was written by logic only',
