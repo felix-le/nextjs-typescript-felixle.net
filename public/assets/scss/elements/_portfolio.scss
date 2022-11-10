@@ -66,23 +66,29 @@
     backface-visibility: hidden;
     transition: transform 0.28s ease;
     z-index: 4;
+    &.backendserver {
+      background-image: url(/assets/images/portfolio/backendserver/1.png);
+    }
+    &.dataTable {
+      background-image: url(/assets/images/portfolio/dataTable/1.png);
+    }
     &.felixle {
       background-image: url(/assets/images/portfolio/felixle/1.png);
     }
-    &.tetris{
+    &.tetris {
       background-image: url(/assets/images/portfolio/tetris/1.png);
     }
-    &.iGEM{
+    &.iGEM {
       background-image: url(/assets/images/portfolio/iGEM/1.png);
     }
-    &.EQWorks{
+    &.EQWorks {
       background-image: url(/assets/images/portfolio/EQWorks/1.png);
     }
-    &.academicPHP{
+    &.academicPHP {
       background-image: url(/assets/images/portfolio/academicPHP/1.png);
     }
-   
-    &.illustrator{
+
+    &.illustrator {
       background-image: url(/assets/images/portfolio/illustrator/1.png);
     }
 
@@ -307,9 +313,8 @@
         &::before {
           opacity: 0.85;
         }
-        h4 > a{
+        h4 > a {
           font-size: 20px;
-
         }
       }
     }
