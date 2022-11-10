@@ -34,7 +34,6 @@ const Portfolio: React.FunctionComponent<IProps> = ({ data }) => (
     <div className='portfolio-slick-activation mt--70 mt_sm--40'>
       <Slider {...portfolioSlick2}>
         {data.map((value) => {
-          console.log(value.image);
           return (
             <div className='portfolio' key={value.href}>
               <div className='thumbnail-inner'>

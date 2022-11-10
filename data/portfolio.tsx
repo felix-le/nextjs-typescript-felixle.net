@@ -73,6 +73,90 @@ const data = [
     numberImage: 1,
   },
   {
+    image: 'beachcomer',
+    href: 'beachcomer',
+    title: 'Immigrate Shopify API to exist websites',
+    subtitle: 'Immigrate Shopify API to exist websites',
+    description: (
+      <>
+        <div>
+          <p>
+            Created a new feature for the website to display products from
+            Shopify, included detail pages, cart, and checkout.
+          </p>
+        </div>
+      </>
+    ),
+    aboutClient: (
+      <ul>
+        <li>Date: 07/2022</li>
+        <li>Site type: Company's product</li>
+        <li>Company</li>
+        <li>
+          Live:{' '}
+          <a
+            target='_blank'
+            style={{ color: '#ca3c08' }}
+            href='https://beachcomerstagging.netlify.app/shop'
+          >
+            {' '}
+            https://beachcomerstagging.netlify.app/shop{' '}
+          </a>
+        </li>
+      </ul>
+    ),
+    technology: (
+      <ul>
+        <li>Gatsby</li>
+        <li>ReactJS</li>
+        <li>Strapi</li>
+        <li>Shopify API</li>
+      </ul>
+    ),
+    numberImage: 1,
+  },
+  {
+    image: 'element6',
+    href: 'element6',
+    title: 'Element6',
+    subtitle: 'both side: front end and back end',
+    description: (
+      <>
+        <div>
+          <p>
+            Website for my company. I created this site from scratch, both side:
+            front end and back end.
+          </p>
+        </div>
+      </>
+    ),
+    aboutClient: (
+      <ul>
+        <li>Date: 10/2022</li>
+        <li>Site type: A company's product</li>
+        <li>
+          Live:{' '}
+          <a
+            target='_blank'
+            style={{ color: '#ca3c08' }}
+            href='https://develement6.netlify.app/'
+          >
+            {' '}
+            https://develement6.netlify.app/{' '}
+          </a>
+        </li>
+      </ul>
+    ),
+    technology: (
+      <ul>
+        <li>Gatsby</li>
+        <li>ReactJS</li>
+        <li>Strapi</li>
+      </ul>
+    ),
+    numberImage: 1,
+  },
+  {
     image: 'dataTable',
     href: 'dataTable',
     title: 'A data table was written by logic only',
