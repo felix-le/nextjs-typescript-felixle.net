@@ -119,7 +119,7 @@ const data = [
     image: 'element6',
     href: 'element6',
     title: 'Element6',
-    subtitle: 'both side: front end and back end',
+    subtitle: 'both side: front end and back end - on going',
     description: (
       <>
         <div>
@@ -135,7 +135,7 @@ const data = [
         <li>Date: 10/2022</li>
         <li>Site type: A company's product</li>
         <li>
-          Live:{' '}
+          Live - on going:{' '}
           <a
             target='_blank'
             style={{ color: '#ca3c08' }}
