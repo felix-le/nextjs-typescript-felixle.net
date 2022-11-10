@@ -23,9 +23,9 @@ const data = [
       <>
         <div>
           <p>
-            Base on: RESTFUL Apis, I wanted to take its responses and reuse them
-            across the website. By doing that, I thought that it would be easier
-            for maintaining and controlling. <br />
+            Based on: RESTFUL Apis, I wanted to take its responses and reuse
+            them across the website. By doing that, I thought that it would be
+            easier for maintaining and controlling. <br />
           </p>
           <p>
             For example, I had to build a portfolio for the Home page (slider),
@@ -73,195 +73,143 @@ const data = [
     numberImage: 1,
   },
   {
-    image: 'perpetua',
-    href: 'perpetua',
-    title: 'perpetua - website',
-    subtitle:
-      'Create a website for Perpetua including a backend server and frontend.',
+    image: 'dataTable',
+    href: 'dataTable',
+    title: 'A data table was written by logic only',
+    subtitle: 'A data table was written in TypeScript, Mock Data',
     description: (
       <>
         <div>
           <p>
-            ExpressJS + ReactJS +TypeScript
-            <br />
-          </p>
-          This assessment will be evaluated based on the following criteria:{' '}
-          <br />
-          ● Correctness: Is your solution complete and does it pass different
-          test cases?
-          <br />
-          ● Code Organization, Readability, & Maintainability: Is your code easy
-          to read and well organized?
-          <br />
-          ● Code Performance: Is your code efficient? Did you use appropriate
-          data structures?
-          <br />
-          ● Best Practices: Did you utilize good programming practices (write
-          unit tests, avoid anti-patterns)? Did you show a good grasp of your
-          language/framework of choice?
-          <br />
-          <div>
-            <p className='mt-2'>
-              <strong>What I did:</strong>
-            </p>
+            Created a data table with some features work together:
             <ul>
-              <li>
-                Created a website with a Backend server(ExpressJS) and a Front
-                end side (ReactJS + TypeScript)
-              </li>
+              <li>Filter</li>
+              <li>Sort</li>
+              <li>Pagination</li>
+              <li>Search</li>
+              <li>Multiple Select</li>
+              <li>Single Select</li>
             </ul>
-          </div>
-        </div>
-        <div>
-          <p>
-            <strong>Result Links: </strong>
           </p>
-          <ul>
-            <li>
-              <a
-                href='https://github.com/felix-le/perpetua-be'
-                target='_blank'
-                style={{ color: 'red', fontSize: '18px' }}
-              >
-                Github Backend Repo
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://github.com/felix-le/perpetua-fe'
-                target='_blank'
-                style={{ color: 'red', fontSize: '18px' }}
-              >
-                Github Frontend Repo
-              </a>
-            </li>
-          </ul>
         </div>
       </>
     ),
     aboutClient: (
       <ul>
-        <li>Date: 02/2020</li>
-        <li>Site type: Interview</li>
+        <li>Date: 04/2022</li>
+        <li>Site type: Learning</li>
         <li>Owner: Felix Le</li>
+        <li>
+          Github:
+          <a
+            target='_blank'
+            style={{ color: '#ca3c08' }}
+            href='  https://github.com/felix-le/react-completed-data-table-ts'
+          >
+            {' '}
+            https://github.com/felix-le/react-completed-data-table-ts{' '}
+          </a>
+        </li>
+        <li>
+          Live:{' '}
+          <a
+            target='_blank'
+            style={{ color: '#ca3c08' }}
+            href='https://strong-platypus-434616.netlify.app/'
+          >
+            {' '}
+            https://strong-platypus-434616.netlify.app/{' '}
+          </a>
+        </li>
       </ul>
     ),
     technology: (
       <ul>
-        <li>ReactJS</li>
         <li>TypeScript</li>
-        <li>ExpressJS</li>
+        <li>ReactJS</li>
+        <li>tailwindcss</li>
       </ul>
     ),
-    numberImage: 1,
+    numberImage: 2,
   },
-
   {
-    image: 'academicPHP',
-    href: 'academicPHP',
-    title: 'Georgian College - PHP',
-    subtitle: 'Assignment 1',
+    image: 'backendserver',
+    href: 'backend-server',
+    title: 'A Collection of backend servers',
+    subtitle: 'A collection of backend servers for learning ExpressJS',
     description: (
       <>
-        <div className='mt--20'>
+        <div>
           <p>
-            This assignment requires you to insert and select data from a
-            database and validate user inputs using PHP scripting <br />
+            This is a collection of backend servers for learning ExpressJS. I
+            did it when learning NodeJS
+            <ul>
+              <li>
+                Perpetua
+                <a
+                  target='_blank'
+                  style={{ color: '#ca3c08' }}
+                  href=' https://github.com/felix-le/perpetua-be'
+                >
+                  {' '}
+                  https://github.com/felix-le/perpetua-be{' '}
+                </a>
+                <ol>
+                  <li>Create routes</li>
+                  <li>Sort</li>
+                  <li>Search by optional parameters</li>
+                  <li>Remove repeated posts</li>
+                  <li>Test API with jestJS</li>
+                </ol>
+              </li>
+              <li>
+                Mean Project
+                <a
+                  target='_blank'
+                  style={{ color: '#ca3c08' }}
+                  href='https://github.com/felix-le/mean-geo-asmt3-small-cms-be'
+                >
+                  {' '}
+                  https://github.com/felix-le/mean-geo-asmt3-small-cms-be
+                </a>
+              </li>
+              <li>
+                Nodejs Project
+                <a
+                  target='_blank'
+                  style={{ color: '#ca3c08' }}
+                  href='https://github.com/felix-le/nodejs-geo-studio-project-be'
+                >
+                  {' '}
+                  https://github.com/felix-le/nodejs-geo-studio-project-be
+                </a>
+              </li>
+              <li>
+                Dynamicly Project
+                <a
+                  target='_blank'
+                  style={{ color: '#ca3c08' }}
+                  href='https://github.com/felix-le/dynamicly_project_interview_be'
+                >
+                  {' '}
+                  https://github.com/felix-le/dynamicly_project_interview_be{' '}
+                </a>
+              </li>
+            </ul>
           </p>
-          <div>
-            <p>
-              <strong>Requirements:</strong>
-            </p>
-            <ul>
-              <li>
-                1. Document each section of your PHP scripts with comments. You
-                do not need to document every single line.
-              </li>
-              <li>
-                2. Create 2 tables in your AWS database - 1 to store the user
-                inputs from your HTML form and 1 used to populate a dropdown
-                list on your you need on your input form
-              </li>
-              <li>
-                3. Create a minimum of 1 input form that includes: <br />
-                a. Input controls for each of the field in your database table
-                listed above
-                <br />
-                b. At least 1 dropdown list that is populated from a table in
-                your database (this means the page will need a .php extension)
-                <br />
-                c. Proper HTML5 input validation in your form controls
-                <br />
-              </li>
-              <li>
-                4. Create a PHP page that accepts a form POST from #3 above. The
-                PHP page should: <br />
-                a. Verify that values have been entered in each field and show a
-                message to the user about any missing inputs
-                <br />
-                b. Save the data to the database if all the input data is valid
-                <br />
-              </li>
-              <li>
-                5. Create a PHP page that shows data from the database in an
-                HTML table.
-              </li>
-              <li>6. Deploy your site to the AWS web server</li>
-            </ul>
-          </div>
-          <div>
-            <p>
-              <strong>What I did:</strong>
-            </p>
-            <ul>
-              <li>Used illustrator for design svg files</li>
-              <li>
-                Based on iGEM teams and their history to build a story about
-                them and their projects
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <p>
-              <strong>Result Links: </strong>
-            </p>
-            <ul>
-              <li>
-                <a
-                  href='http://15.222.122.223/~Anh200443551/phpClass/php_assignment1/index.php'
-                  target='_blank'
-                  style={{ color: 'red', fontSize: '18px' }}
-                >
-                  Demo
-                </a>
-              </li>
-              <li>
-                <a
-                  href='https://github.com/felix-le/php_assignment1'
-                  target='_blank'
-                  style={{ color: 'red', fontSize: '18px' }}
-                >
-                  Github (will be opened in May 2021)
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
       </>
     ),
-    clientLink: 'https://www.georgiancollege.ca/',
     aboutClient: (
       <ul>
-        <li>Date: 02/2020</li>
-        <li>Site type: academic assignment</li>
+        <li>Date: 04/2022</li>
+        <li>Site type: Learning</li>
         <li>Owner: Felix Le</li>
       </ul>
     ),
     technology: (
       <ul>
-        <li>PHP</li>
-        <li>mySQL</li>
+        <li>ExpressJS</li>
       </ul>
     ),
     numberImage: 2,
